@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int i,j;
+    for(i=1;i<=5;i++)
+    {
+        for(j=1;j<=5;j++)
+        {
+            printf("%3d",(2*(i+j))-3);
+        }
+        printf("\n");
+    }
+    return 0;
+}
